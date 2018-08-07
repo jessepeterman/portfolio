@@ -1,5 +1,5 @@
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   box-sizing: border-box;
 }
 
@@ -68,10 +68,18 @@ h1 {
   text-align: center;
 }
 
-.current-page {
-  text-decoration: underline;
-}
-
 .contact-links a:hover {
   opacity: 0.6;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+}
+
+.front-image {
+  max-width: 20rem;
+  width: 100%;
+  height: auto;
 }
